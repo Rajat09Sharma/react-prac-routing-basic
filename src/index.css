@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+main{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+nav{
+    width: 200px;
+    margin: 2rem auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li a{
+    color: yellow !important;
+}
+
+li a:hover,
+li a.active{
+    color: burlywood;
+    text-decoration: underline;
+}
